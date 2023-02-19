@@ -9,9 +9,9 @@ nust_do:
 	echo "6. Some Appearance change" > /dev/null
 	
 	# Actuall setup
-    ./nust do aptupdate.nust
+	./nust do aptupdate.nust
 	./nust do unsnap.nust
 	./nust do chrome.nust
 	./nust do vscode.nust
-    ./nust do git.nust
-    ./nust do xmind.nust
+	./nust do git.nust
+	./nust do xmind.nust
