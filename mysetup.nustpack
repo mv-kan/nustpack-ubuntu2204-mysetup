@@ -14,3 +14,4 @@ nust_do:
 	./nust do chrome.nust
 	./nust do vscode.nust
     ./nust do git.nust
+    ./nust do xmind.nust
