@@ -13,4 +13,4 @@ nust_do:
 	
 	sudo touch /etc/apt/preferences.d/nosnap.pref		
 	sudo chmod 666 /etc/apt/preferences.d/nosnap.pref 
-	sudo echo $'Package: snapd \nPin: release a=* \nPin-Priority: -10' > /etc/apt/preferences.d/nosnap.pref
+	sudo echo -e "Package: snapd \nPin: release a=* \nPin-Priority: -10" > /etc/apt/preferences.d/nosnap.pref
