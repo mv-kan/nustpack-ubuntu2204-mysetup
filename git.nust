@@ -1,0 +1,8 @@
+include config
+export $(shell sed 's/=.*//' config)
+
+nust_do:
+	sudo apt install git
+
+	git config --global user.email ${GIT_EMAIL}
+	git config --global user.name ${GIT_NAME}

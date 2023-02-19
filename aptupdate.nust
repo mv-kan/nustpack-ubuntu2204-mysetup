@@ -1,0 +1,3 @@
+nust_do:
+    sudo apt update
+    sudo apt upgrade

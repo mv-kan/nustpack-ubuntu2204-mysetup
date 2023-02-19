@@ -1,0 +1,3 @@
+nust_do:
+	wget -O vscode-stable-amd64.deb https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64
+	sudo apt install -y vscode-stable-amd64.deb 
