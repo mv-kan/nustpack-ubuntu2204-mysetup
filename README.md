@@ -1,7 +1,8 @@
 # How to run?
 
 ```
-cd <cloned repo>
+git clone https://github.com/mv-kan/nustpack-ubuntu2204-mysetup
+cd nustpack-ubuntu2204-mysetup
 chmod 755 ./install.sh
 ./install.sh
 ```
