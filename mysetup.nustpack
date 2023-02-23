@@ -9,6 +9,7 @@ nust_do:
 	echo "6. Some Appearance change" > /dev/null
 	
 	# Actuall setup
+	./nust do darktheme.nust
 	./nust do aptupdate.nust
 	./nust do unsnap.nust
 	./nust do chrome.nust
