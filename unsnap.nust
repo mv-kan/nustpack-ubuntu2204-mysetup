@@ -1,7 +1,7 @@
 # https://www.debugpoint.com/remove-snap-ubuntu/
 nust_do:
 	# if we have firefox running we have to kill it, because we removing firefox
-	kill $(pidof firefox) || true
+	kill $(shell pidof firefox) || true
 	sudo snap remove --purge firefox
 	sudo snap remove --purge snap-store
 	sudo snap remove --purge gnome-3-38-2004
