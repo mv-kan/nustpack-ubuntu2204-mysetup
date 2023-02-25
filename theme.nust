@@ -1,9 +1,0 @@
-nust_do:
-    wget "https://ocs-dl.fra1.cdn.digitaloceanspaces.com/data/files/1641887808/Gruvbox-Dark-BL.zip?response-content-disposition=attachment%3B%2520Gruvbox-Dark-BL.zip&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=RWJAQUNCHT7V2NCLZ2AL%2F20230223%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230223T133224Z&X-Amz-SignedHeaders=host&X-Amz-Expires=60&X-Amz-Signature=120175b809f2dff3ab5477ea6d31e7a95f9f779e820870a5e680d102c346c857" -O theme.zip
-    
-    unzip theme.zip
-    cp -r Gruvbox-Dark-BL/gtk-4.0 .config/
-    mkdir ~/.themes
-    mv -rf Gruvbox-Dark-BL ~/.themes/
-
-    gsettings set org.gnome.desktop.interface gtk-theme 'Gruvbox-Dark-BL'
