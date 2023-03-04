@@ -15,3 +15,4 @@ nust_do:
 	./nust do vscode.nust
 	./nust do git.nust
 	./nust do xmind.nust
+	./nust do neovim.nust
