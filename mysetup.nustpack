@@ -1,13 +1,4 @@
 nust_do:
-	echo "This is my ubuntu 22 04 setup" > /dev/null
-	echo "Stuff done to this ubuntu" > /dev/null
-	echo "1. Install git" > /dev/null
-	echo "2. unsnap ubuntu (because they are slow and bad)" > /dev/null
-	echo "3. Install chrome (also add chrome repo to apt) and delete firefox" > /dev/null
-	echo "4. Install vscode" > /dev/null
-	echo "5. Install xmind" > /dev/null
-	echo "6. Some Appearance change" > /dev/null
-	
 	# Actuall setup
 	./nust do aptupdate.nust
 	./nust do unsnap.nust
@@ -16,3 +7,5 @@ nust_do:
 	./nust do git.nust
 	./nust do xmind.nust
 	./nust do neovim.nust
+	./nust do gnome-console.nust
+	./nust do gnome-clipboard.nust

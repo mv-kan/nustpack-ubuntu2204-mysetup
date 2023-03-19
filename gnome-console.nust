@@ -1,0 +1,2 @@
+nust_do:
+	sudo apt-get install gnome-console -y
