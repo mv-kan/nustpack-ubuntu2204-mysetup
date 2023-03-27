@@ -1,5 +1,0 @@
-nust_do:
-	sudo apt install neovim -y
-	sudo mkdir -p ~/config/nvim/
-	sudo cp ./init.vim ~/config/nvim/init.vim
-	sudo echo -e "\nalias vi=\"nvim\"\n" >> ~/.bashrc

@@ -1,3 +1,0 @@
-nust_do:
-	sudo apt update -y
-	sudo apt upgrade -y --fix-missing
