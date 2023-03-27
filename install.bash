@@ -1,6 +1,7 @@
 #!/bin/bash
 RETRIES=10
 echo "WARNING close Firefox app, otherwise this script will fail"
+/bin/bash nust.bash
 ./nust aptupdate.bash -r ${RETRIES}
 ./nust unsnap.bash
 ./nust chrome.bash -r ${RETRIES}
