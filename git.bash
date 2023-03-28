@@ -1,6 +1,6 @@
+source config
 
-export $(grep -v '^#' .env | xargs)
-
+export GIT_EMAIL, GIT_NAME
 
 sudo apt install -y git
 
