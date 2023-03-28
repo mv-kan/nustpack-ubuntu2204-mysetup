@@ -13,3 +13,7 @@ sudo echo "WARNING Please go to ./config and change fill it with info. Without p
 ./nust gnome-console.bash -r ${RETRIES}
 ./nust zsh.bash -r ${RETRIES} 
 ./nust gnome-clipboard.bash -r ${RETRIES}
+echo "FINISHED, after rebooting please enter"
+echo "gnome-extensions enable clipboard-indicator@tudmotu.com"
+echo "to enable clipboard extension"
+gnome-extensions enable clipboard-indicator@tudmotu.com
