@@ -6,13 +6,13 @@ if [ ! -f ./nust ]; then
     /bin/bash nust.bash
 fi
 ./nust aptupdate.bash -r ${RETRIES}
-./nust unsnap.bash
+# ./nust unsnap.bash
 ./nust chrome.bash -r ${RETRIES}
 ./nust vscode.bash -r ${RETRIES} 
 ./nust git.bash -r ${RETRIES}
 ./nust xmind.bash -r ${RETRIES}
 ./nust neovim.bash -r ${RETRIES}
-./nust gnome-console.bash -r ${RETRIES}
+# ./nust gnome-console.bash -r ${RETRIES}
 ./nust zsh.bash -r ${RETRIES} 
 ./nust gnome-clipboard.bash -r ${RETRIES}
 echo "FINISHED, after rebooting please enter"
